@@ -1,0 +1,338 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 37,
+        "name": "Free CRM Create Contact Test",
+        "description": "",
+        "id": "title-of-your-feature;free-crm-create-contact-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10052371343,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "application already opened on the browser",
+            "match": {
+              "location": "CreateContactsStepsDescription.application_already_opened_on_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22030524,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "title of login page is free crm",
+            "match": {
+              "location": "CreateContactsStepsDescription.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10292916564,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter username and password",
+            "match": {
+              "location": "CreateContactsStepsDescription.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219142576,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on homepage of CRM",
+            "match": {
+              "location": "CreateContactsStepsDescription.user_is_on_homepage_of_CRM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1760574293,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on create new contact",
+            "match": {
+              "location": "CreateContactsStepsDescription.click_on_create_new_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2259985687,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter \"Firstname1\" and \"Lastname1\" and \"Aress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firstname1",
+                  "offset": 7
+                },
+                {
+                  "val": "Lastname1",
+                  "offset": 24
+                },
+                {
+                  "val": "Aress",
+                  "offset": 40
+                }
+              ],
+              "location": "CreateContactsStepsDescription.enter_value_to_create_new_contact(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 634320354,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "close browser",
+            "match": {
+              "location": "CreateContactsStepsDescription.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 26,
+            "name": "@CreateContact"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Free CRM Create Contact Test",
+        "description": "",
+        "id": "title-of-your-feature;free-crm-create-contact-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9435002245,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "application already opened on the browser",
+            "match": {
+              "location": "CreateContactsStepsDescription.application_already_opened_on_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8248720,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "title of login page is free crm",
+            "match": {
+              "location": "CreateContactsStepsDescription.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7959110828,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "enter username and password",
+            "match": {
+              "location": "CreateContactsStepsDescription.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 212751794,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on homepage of CRM",
+            "match": {
+              "location": "CreateContactsStepsDescription.user_is_on_homepage_of_CRM()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2087448643,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click on create new contact",
+            "match": {
+              "location": "CreateContactsStepsDescription.click_on_create_new_contact()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2312293515,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter \"Firstname2\" and \"Lastname2\" and \"Decos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firstname2",
+                  "offset": 7
+                },
+                {
+                  "val": "Lastname2",
+                  "offset": 24
+                },
+                {
+                  "val": "Decos",
+                  "offset": 40
+                }
+              ],
+              "location": "CreateContactsStepsDescription.enter_value_to_create_new_contact(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635648353,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "close browser",
+            "match": {
+              "location": "CreateContactsStepsDescription.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@tag"
+          },
+          {
+            "line": 26,
+            "name": "@CreateContact"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "CRMLogin.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@tag"
+      }
+    ]
+  }
+]
