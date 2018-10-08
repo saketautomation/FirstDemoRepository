@@ -30,6 +30,7 @@ public class CreateContactsStepsDescription
 		driver.get("https://www.freecrm.com");
 	}
 	
+	@SuppressWarnings("deprecation")
 	@And("^title of login page is free crm$")
 	public void title_of_login_page_is_free_crm()
 	{
